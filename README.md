@@ -1,7 +1,7 @@
 # Widgets_Package
 All widgets scuh as TextView, Button, CheckBox and etc with custom font and also some usefull widgets such as PersianDatePicker for persian language.
 ## Installing:
-Add this to your repository
+Add this to your project
 ```
 allprojects {
     repositories {
@@ -9,13 +9,11 @@ allprojects {
       maven { url 'https://jitpack.io' }
     }
   }
-  ```
-Add this to your dependency
-  ```
-  dependencies {
+  
+dependencies {
           implementation 'com.github.mohammadaminha:Widgets_Package:V1'
-  }
-  ```
+}
+```
 ## Using:
 First of all you should initilize the static parameters with this code, run this code inside of your onCreate Application class:
 ```
