@@ -1,0 +1,713 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CustomWidgets</string>
+    <!-- Label for button to confirm chosen date or time [CHAR LIMIT=30] -->
+    <string name="mdtp_ok">تایید</string>
+    <string name="mdtp_cancel">بیخیال</string>
+    <!--
+         Content description for the hour selector in the time picker, which displays
+         selectable hours of the day along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_hour_picker_description" msgid="7586639618712934060">"لغزنده دایره‌ای ساعت"</string>
+    <!--
+         Content description for the minute selector in the time picker, which displays
+         selectable five-minute intervals along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_minute_picker_description" msgid="6024811202872705251">"لغزنده دایره‌ای دقیقه"</string>
+    <!-- Accessibility announcement for hour circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_hours" msgid="7651068754188418859">"انتخاب ساعت"</string>
+    <!-- Accessibility announcement for minute circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_minutes" msgid="8327182090226828481">"انتخاب دقیقه"</string>
+
+    <!--
+        Content description for the month and day selector in the date picker, which displays
+        a selectable grid of days laid out by month.
+        [CHAR LIMIT=50]
+     -->
+    <string name="mdtp_day_picker_description">Month grid of days</string>
+    <!--
+        Content description for the year selector in the date picker, which displays
+        a scrolling, vertical list of years.
+        [CHAR LIMIT=50]
+     -->
+    <string name="mdtp_year_picker_description">Year list</string>
+    <!-- Accessibility announcement for the day picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_day">Select month and day</string>
+    <!-- Accessibility announcement for the year picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_year">Select year</string>
+    <!-- Accessibility description for the item that is currently selected. -->
+    <string name="mdtp_item_is_selected" msgid="2674929164900463786">"<xliff:g id="ITEM">%1$s</xliff:g> انتخاب شد"</string>
+    <!-- Accessibility announcement when a number that had been typed in is deleted [CHAR_LIMIT=NONE] -->
+    <string name="mdtp_deleted_key" msgid="6908431551612331381">"<xliff:g id="KEY">%1$s</xliff:g> حذف شد"</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_placeholder" translatable="false">--</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_separator" translatable="false">:</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_radial_numbers_typeface" translatable="false">sans-serif</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_sans_serif" translatable="false">sans-serif</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_day_of_week_label_typeface" translatable="false">sans-serif</string>
+
+    <!--<string name="url">http://10.0.2.2:8000/</string>-->
+    <string name="url">"https://bookdocs.ir/"</string>
+    <string name="patient_image_url">"https://bookdocs.ir/Doctors/public/images/patients/"</string>
+    <string name="doctors_image_url">"https://bookdocs.ir/Doctors/public/images/doctors/"</string>
+
+    <string-array name="fields_Study">
+        <item>جمعیت شناسی</item>
+        <item>جهانگردی</item>
+        <item>حسابداری</item>
+        <item>حسابداری مالیاتی</item>
+        <item>حشره شناسی كشاورزی</item>
+        <item>حفاظت اطلاعات</item>
+        <item>حفاظت و مرمت آثار تاریخی</item>
+        <item>حقوق</item>
+        <item>حقوق بین الملل عمومی</item>
+        <item>حقوق جزا و جرم شناسی</item>
+        <item>حقوق خصوصی</item>
+        <item>حقوق عمومی</item>
+        <item>حقوق قضایی</item>
+        <item>حقوق نفت و گاز</item>
+        <item>حمل و نقل ریلی</item>
+        <item>خط و سازه های ریلی</item>
+        <item>داروسازی</item>
+        <item>دامپزشكی</item>
+        <item>دریا</item>
+        <item>دریا ـ دریانوردی</item>
+        <item>دندانپزشكی</item>
+        <item>رادیولوژی دامپزشكی</item>
+        <item>راه آهن</item>
+        <item>روابط عمومی</item>
+        <item>روابط كار</item>
+        <item>روان شناسی اجتماعی</item>
+        <item>روان شناسی تربیتی</item>
+        <item>روان شناسی و آموزش كودكان استثنایی</item>
+        <item>روانشناسی</item>
+        <item>روزنامه نگاری</item>
+        <item>روزنامه نگاری علوم ارتباطات</item>
+        <item>ریاضی كاربردی - آنالیز عددی</item>
+        <item>ریاضی كاربردی - زیست ریاضی</item>
+        <item>ریاضی محض</item>
+        <item>ریاضیات و كاربردها</item>
+        <item>ریز زیست فناوری</item>
+        <item>زبان اسپانیایی</item>
+        <item>زبان ایتالیایی</item>
+        <item>زبان روسی</item>
+        <item>زبان شناسی</item>
+        <item>زبان و ادبیات آلمانی</item>
+        <item>زبان و ادبیات اردو</item>
+        <item>زبان و ادبیات ارمنی</item>
+        <item>زبان و ادبیات اسپانیایی</item>
+        <item>زبان و ادبیات انگلیسی</item>
+        <item>زبان و ادبیات تركی آذری</item>
+        <item>زبان و ادبیات تركی استانبولی</item>
+        <item>زبان و ادبیات عربی</item>
+        <item>زبان و ادبیات فارسی</item>
+        <item>زبان و ادبیات فرانسه</item>
+        <item>زبان و ادبیات كردی</item>
+        <item>زبان و ادبیات ژاپنی</item>
+        <item>زبان چینی</item>
+        <item>زبانهای باستانی ایران</item>
+        <item>زمین شناسی</item>
+        <item>زمین شناسی آب شناسی</item>
+        <item>زمین شناسی اقتصادی</item>
+        <item>زمین شناسی تكتونیك</item>
+        <item>زمین شناسی زیست محیطی</item>
+        <item>زمین شناسی سنگ شناسی رسوبی</item>
+        <item>زمین شناسی فسیل شناسی و چینه شناسی</item>
+        <item>زمین شناسی مهندسی</item>
+        <item>زمین شناسی نفت</item>
+        <item>زمین شناسی پترولوژی</item>
+        <item>زیست شناسی</item>
+        <item>زیست شناسی جانوری</item>
+        <item>زیست شناسی دریا</item>
+        <item>زیست شناسی سلولی و مولكولی</item>
+        <item>زیست شناسی ـ سلولی و تكوینی گیاهی</item>
+        <item>زیست شناسی ـ سلولی و ملكولی</item>
+        <item>زیست شناسی ـ سیستماتیك و بوم شناسی گیاهی</item>
+        <item>زیست شناسی ـ فیزیولوژی گیاهی</item>
+        <item>زیست شناسی ـ میكروبیولوژی</item>
+        <item>زیست شناسی ـ ژنتیك مولكولی</item>
+        <item>زیست شناسی محاسباتی بیوفیزیك</item>
+        <item>زیست شناسی گیاهی</item>
+        <item>زیست فناوری</item>
+        <item>زیست فناوری میكروبی</item>
+        <item>ساخت و تولید</item>
+        <item>سم شناسی</item>
+        <item>سنجش از دور و سامانه اطلاعات جغرافیایی</item>
+        <item>سنجش و اندازه گیری</item>
+        <item>سینما</item>
+        <item>شناسایی و مبارزه با علفهای هرز</item>
+        <item>شنوایی شناسی</item>
+        <item>شهرسازی</item>
+        <item>شهرسازی - انرژی شهرسازی</item>
+        <item>شیعه شناسی</item>
+        <item>شیلات ـ تولید و بهره برداری</item>
+        <item>شیلات ـ عمل آوری</item>
+        <item>شیمی</item>
+        <item>شیمی آزمایشگاهی</item>
+        <item>شیمی ـ شیمی آلی</item>
+        <item>شیمی ـ شیمی فیزیك</item>
+        <item>شیمی ـ شیمی معدنی</item>
+        <item>شیمی ـ شیمی پلیمر</item>
+        <item>شیمی كاربردی</item>
+        <item>شیمی محض</item>
+        <item>صنایع</item>
+        <item>صنایع خمیر و كاغذ</item>
+        <item>صنایع دستی</item>
+        <item>صنایع مبلمان</item>
+        <item>صنایع چوب و فرآورده های سلولزی</item>
+        <item>ضد تروریسم</item>
+        <item>طبیعت</item>
+        <item>طراحی شهری</item>
+        <item>طراحی صحنه</item>
+        <item>طراحی صنعتی</item>
+        <item>طراحی لباس</item>
+        <item>طراحی پارچه</item>
+        <item>طراحی پارچه و لباس</item>
+        <item>عكاسی</item>
+        <item>علم اطلاعات و دانش شناسی</item>
+        <item>علوم آزمایشگاهی</item>
+        <item>علوم آزمایشگاهی دامپزشكی</item>
+        <item>علوم ارتباطات اجتماعی</item>
+        <item>علوم اطلاعاتی</item>
+        <item>علوم اقتصادی</item>
+        <item>علوم انتظامی</item>
+        <item>علوم تربیتی</item>
+        <item>علوم تغذیه</item>
+        <item>علوم جانوری ـ بیوسیستماتیك جانوری</item>
+        <item>علوم جانوری ـ فیزیولوژی جانوری</item>
+        <item>علوم جنگل ـ جنگل شناسی</item>
+        <item>علوم جنگل ـ جنگل داری و مسائل اقتصادی</item>
+        <item>علوم جنگل ـ مهندسی جنگل</item>
+        <item>علوم دامی</item>
+        <item>علوم زمین</item>
+        <item>علوم سیاسی</item>
+        <item>علوم شناختی</item>
+        <item>علوم علف های هرز</item>
+        <item>علوم فنی امنیت</item>
+        <item>علوم قرآن و حدیث</item>
+        <item>علوم قضایی</item>
+        <item>علوم كامپیوتر</item>
+        <item>علوم محیط زیست</item>
+        <item>علوم مهندسی</item>
+        <item>علوم و آب</item>
+        <item>علوم و باغبانی</item>
+        <item>علوم و جنگل</item>
+        <item>علوم و خاك</item>
+        <item>علوم و شیلات</item>
+        <item>علوم و صنایع غذایی</item>
+        <item>علوم و صنایع غذایی كشاورزی)</item>
+        <item>علوم و فناوری نانو ـ نانوشیمی</item>
+        <item>علوم و فناوری نانو - نانوفیزیك</item>
+        <item>علوم و محیط زیست</item>
+        <item>علوم و مهندسی آب</item>
+        <item>علوم و مهندسی آب ـ آبیاری و زهكشی</item>
+        <item>علوم و مهندسی آب ـ سازه های آبی</item>
+        <item>علوم و مهندسی آب ـ منابع آب</item>
+        <item>علوم و مهندسی آب ـ هوا شناسی كشاورزی</item>
+        <item>علوم و مهندسی آبخیزداری</item>
+        <item>علوم و مهندسی باغبانی</item>
+        <item>علوم و مهندسی جنگل</item>
+        <item>علوم و مهندسی شیلات</item>
+        <item>علوم و مهندسی صنایع غذایی</item>
+        <item>علوم و مهندسی محیط زیست</item>
+        <item>علوم و مهندسی مرتع</item>
+        <item>علوم ورزشی</item>
+        <item>عمران</item>
+        <item>فارماكولوژی</item>
+        <item>فرش</item>
+        <item>فرهنگ و زبانهای باستانی</item>
+        <item>فرهنگ و معارف اسلامی</item>
+        <item>فضای سبز</item>
+        <item>فقه شافعی</item>
+        <item>فقه و حقوق اسلامی</item>
+        <item>فقه و حقوق امامی</item>
+        <item>فقه و حقوق حنفی</item>
+        <item>فقه و حقوق شافعی</item>
+        <item>فقه و مبانی حقوق اسلامی</item>
+        <item>فلسفه</item>
+        <item>فلسفه تعلیم و تربیت</item>
+        <item>فلسفه علم</item>
+        <item>فلسفه منطق</item>
+        <item>فلسفه و حكمت اسلامی</item>
+        <item>فلسفه و عرفان اسلامی</item>
+        <item>فلسفه و كلام اسلامی</item>
+        <item>فناوری اطلاعات سلامت</item>
+        <item>فناوری اطلاعات و ارتباطات</item>
+        <item>جوشكاری</item>
+        <item>عملیات پتروشیمی</item>
+        <item>فناوری تولید مثل در دامپزشكی</item>
+        <item>فناوری نانو ـ نانوالكتریك</item>
+        <item>فناوری نانو ـ نانومواد</item>
+        <item>فوتونیك</item>
+        <item>فوریتهای پزشكی</item>
+        <item>فیتوشیمی</item>
+        <item>فیزیك</item>
+        <item>فیزیك دریا</item>
+        <item>فیزیك مهندسی</item>
+        <item>فیزیوتراپی</item>
+        <item>فیزیولوژی</item>
+        <item>فیزیولوژی دامپزشكی</item>
+        <item>فیزیولوژی علوم جانوری ـ تكوینی</item>
+        <item>قارچ شناسی</item>
+        <item>قارچ شناسی دامپزشكی</item>
+        <item>كار آفرینی</item>
+        <item>كاردرمانی</item>
+        <item>كارگردانی تلویزیون</item>
+        <item>كامپیوتر</item>
+        <item>كتابت و نگارگری</item>
+        <item>كتابداری در شاخه پزشكی</item>
+        <item>كلینیكال پاتولوژی دامپزشكی</item>
+        <item>ماشین آلات دریایی</item>
+        <item>ماشینهای ریلی</item>
+        <item>ماشینهای صنایع غذایی</item>
+        <item>مامایی</item>
+        <item>مامایی و بیماریهای تولید مثل دام</item>
+        <item>مترجمی زبان آلمانی</item>
+        <item>مترجمی زبان انگلیسی</item>
+        <item>مترجمی زبان عربی</item>
+        <item>مترجمی زبان فرانسه</item>
+        <item>مجسمه سازی</item>
+        <item>برنامه ریزی شهری</item>
+        <item>مدیریت شهری</item>
+        <item>تربیت بدنی و علوم ورزشی</item>
+        <item>ریاضی</item>
+        <item>زبان آلمانی</item>
+        <item>زبان انگلیسی</item>
+        <item>زبان عربی</item>
+        <item>زبان فرانسه</item>
+        <item>زراعت و اصلاح نباتات</item>
+        <item>شیمی ـ بیوتكنولوژی و داروسازی</item>
+        <item>علوم اجتماعی</item>
+        <item>علوم جغرافیایی</item>
+        <item>علوم دام و طیور</item>
+        <item>علوم سیاسی و روابط بین الملل</item>
+        <item>فتونیك</item>
+        <item>مدیریت</item>
+        <item>مدیریت حاصلخیزی، زیست فناوری و منابع خاك</item>
+        <item>مدیریت كسب و كار و امور شهری</item>
+        <item>معماری</item>
+        <item>مهندسی برق</item>
+        <item>مهندسی شیمی</item>
+        <item>مهندسی عمران</item>
+        <item>مهندسی معماری كشتی</item>
+        <item>مهندسی مكانیك</item>
+        <item>مهندسی مواد و متالورژی</item>
+        <item>مهندسی هوافضا</item>
+        <item>هنرهای ساخت و معماری</item>
+        <item>هنرهای موسیقی</item>
+        <item>هنرهای نمایشی و سینما</item>
+        <item>هنرهای پژوهشی و صنایع دستی</item>
+        <item>ژئوفیزیك و هواشناسی</item>
+        <item>محیط زیست</item>
+        <item>محیط زیست ـ برنامه ریزی</item>
+        <item>مخابرات</item>
+        <item>مخابرات هواپیمایی</item>
+        <item>مددكاری اجتماعی</item>
+        <item>مدرسی معارف اسلامی</item>
+        <item>مدیریت اطلاعاتی</item>
+        <item>مدیریت امور بانكی</item>
+        <item>مدیریت امور گمركی</item>
+        <item>مدیریت بازرگانی</item>
+        <item>مدیریت بیمه</item>
+        <item>مدیریت بیمه اكو</item>
+        <item>مدیریت جهانگردی</item>
+        <item>مدیریت خدمات اجتماعی مددكاری اجتماعی</item>
+        <item>مدیریت خدمات بهداشتی درمانی</item>
+        <item>مدیریت دریایی</item>
+        <item>مدیریت دولتی</item>
+        <item>مدیریت راهبردی و آینده پژوهی</item>
+        <item>مدیریت صنعتی</item>
+        <item>مدیریت فرهنگی هنری</item>
+        <item>مدیریت فناوری اطلاعات</item>
+        <item>مدیریت قراردادهای بین المللی نفت و گاز</item>
+        <item>مدیریت كسب و كارهای كوچك</item>
+        <item>مدیریت كشاورزی</item>
+        <item>مدیریت مالی</item>
+        <item>مدیریت منابع خاك</item>
+        <item>مدیریت هتل داری گردشگری</item>
+        <item>مدیریت و بازرگانی دریایی</item>
+        <item>مدیریت و كنترل بیابان</item>
+        <item>مدیریت پروژه</item>
+        <item>مربیگری عقیدتی</item>
+        <item>مربیگری ورزشی</item>
+        <item>مردم شناسی</item>
+        <item>مرمت آثار تاریخی</item>
+        <item>مرمت بناهای تاریخی</item>
+        <item>مرمت و احیای ابنیه و بافتهای تاریخی</item>
+        <item>مشاوره</item>
+        <item>مطالعات ارتباطی و فناوری اطلاعات</item>
+        <item>مطالعات تعاونی های علوم اجتماعی</item>
+        <item>مطالعات جهان</item>
+        <item>مطالعات خانواده</item>
+        <item>مطالعات زنان</item>
+        <item>معارف اسلامی</item>
+        <item>معارف اسلامی ـ تبلیغ و ارتباطات</item>
+        <item>معارف اسلامی و ارشاد</item>
+        <item>معارف اسلامی و تاریخ</item>
+        <item>معارف اسلامی و حقوق</item>
+        <item>معارف اسلامی و علوم تربیتی</item>
+        <item>معارف اسلامی و كلام</item>
+        <item>معارف اسلامی و مدیریت</item>
+        <item>معدن</item>
+        <item>معماری داخلی</item>
+        <item>معماری سنتی</item>
+        <item>مكانیزاسیون كشاورزی</item>
+        <item>مكانیك</item>
+        <item>مكانیك بیوسیستم كشاورزی)</item>
+        <item>مهندسی ابزار دقیق و اتوماسیون در صنایع نفت</item>
+        <item>مهندسی اقتصاد كشاورزی</item>
+        <item>مهندسی ایمنی و بازرسی فنی</item>
+        <item>مهندسی برق ـ الكترونیك</item>
+        <item>مهندسی برق ـ قدرت</item>
+        <item>مهندسی برق ـ كنترل</item>
+        <item>مهندسی برق ـ مخابرات</item>
+        <item>مهندسی در سوانح طبیعی</item>
+        <item>مهندسی دریا</item>
+        <item>مهندسی سیستمهای انرژی</item>
+        <item>مهندسی شیمی ـ بهداشت، ایمنی و محیط زیست HSE)</item>
+        <item>مهندسی شیمی ـ بیوتكنولوژی</item>
+        <item>مهندسی شیمی ـ بیوتكنولوژی و داروسازی</item>
+        <item>مهندسی صنایع</item>
+        <item>مهندسی صنایع چوب و فرآورده های سلولزی</item>
+        <item>مهندسی طراحی محیط زیست</item>
+        <item>مهندسی عمران ـ حمل و نقل</item>
+        <item>مهندسی عمران ـ راه و ترابری</item>
+        <item>مهندسی عمران ـ زلزله</item>
+        <item>مهندسی عمران ـ سازه</item>
+        <item>مهندسی عمران ـ سواحل، بنادر و سازههای دریایی</item>
+        <item>مهندسی عمران ـ محیط زیست</item>
+        <item>مهندسی عمران ـ مدیریت ساخت</item>
+        <item>مهندسی عمران ـ مدیریت منابع آب</item>
+        <item>مهندسی عمران ـ مهندسی آب و سازه های هیدرولیكی</item>
+        <item>مهندسی عمران ـ ژئوتكنیك</item>
+        <item>مهندسی فضای سبز</item>
+        <item>مهندسی فناوری اطلاعات IT)</item>
+        <item>مهندسی كامپیوتر</item>
+        <item>مهندسی كامپیوتر ـ شبكه و رایانش</item>
+        <item>مهندسی كامپیوتر ـ معماری سیستم های كامپیوتری</item>
+        <item>مهندسی كامپیوتر ـ نرم افزار و الگوریتم</item>
+        <item>مهندسی كامپیوتر ـ هوش مصنوعی</item>
+        <item>مهندسی متابولیك - زراعت</item>
+        <item>مهندسی محیط زیست ـ آب و فاضلاب</item>
+        <item>مهندسی محیط زیست ـ آلودگی هوا</item>
+        <item>مهندسی محیط زیست ـ منابع آب</item>
+        <item>مهندسی محیط زیست ـ مواد زائد جامد</item>
+        <item>مهندسی معدن</item>
+        <item>مهندسی معدن ـ استخراج</item>
+        <item>مهندسی معدن ـ اكتشاف</item>
+        <item>مهندسی معدن ـ فرآوری مواد معدنی</item>
+        <item>مهندسی معدن ـ مكانیك سنگ</item>
+        <item>مهندسی مكانیزاسیون كشاورزی</item>
+        <item>مهندسی مكانیك بیوسیستم</item>
+        <item>مهندسی مكانیك ـ تبدیل انرژی</item>
+        <item>مهندسی مكانیك ـ دینامیك، كنترل و ارتعاشات</item>
+        <item>مهندسی مكانیك ـ ساخت و تولید</item>
+        <item>مهندسی مكانیك ـ مكانیك جامدات</item>
+        <item>مهندسی نساجی</item>
+        <item>مهندسی نساجی ـ تكنولوژی نساجی</item>
+        <item>مهندسی نساجی ـ شیمی نساجی و علوم الیاف</item>
+        <item>مهندسی نفت</item>
+        <item>مهندسی نفت - حفاری</item>
+        <item>مهندسی نفت ـ اكتشاف</item>
+        <item>مهندسی نقشه برداری</item>
+        <item>مهندسی نقشه برداری ـ سنجش از دور</item>
+        <item>مهندسی نقشه برداری ـ سیستم اطلاعات جغرافیایی GIS)</item>
+        <item>مهندسی نقشه برداری ـ فتوگرامتری</item>
+        <item>مهندسی نقشه برداری ـ ژئودزی</item>
+        <item>مهندسی هسته ای ـ راكتور</item>
+        <item>مهندسی هسته ای ـ كاربرد پرتوها</item>
+        <item>مهندسی هسته ای ـ پرتو پزشكی</item>
+        <item>مهندسی هسته ای ـ گداخت</item>
+        <item>مهندسی هوا فضا ـ آئرودینامیك</item>
+        <item>مهندسی هوا فضا ـ جلوبرندگی</item>
+        <item>مهندسی هوا فضا ـ دینامیك پرواز و كنترل</item>
+        <item>مهندسی هوا فضا ـ سازه های هوایی</item>
+        <item>مهندسی پزشكی ـ بیوالكتریك</item>
+        <item>مهندسی پزشكی ـ بیومتریال</item>
+        <item>مهندسی پزشكی ـ بیومكانیك</item>
+        <item>مهندسی پلیمر</item>
+        <item>مهندسی پلیمر ـ رنگ</item>
+        <item>مهندسی پلیمر ـ صنایع رنگ</item>
+        <item>مهندسی پلیمر ـ پلیمر</item>
+        <item>مواد و متالورژی</item>
+        <item>موزه</item>
+        <item>موسیقی نظامی</item>
+        <item>میكروبیولوژی</item>
+        <item>نانوفناوری ـ نانومواد</item>
+        <item>نساجی</item>
+        <item>نفت</item>
+        <item>نقاشی</item>
+        <item>نقشه برداری</item>
+        <item>نمایش عروسكی</item>
+        <item>نمونه گیری و آمار</item>
+        <item>نوازندگی موسیقی ایرانی</item>
+        <item>نوازندگی موسیقی جهانی</item>
+        <item>هتل داری</item>
+        <item>هنر اسلامی</item>
+        <item>هنر سفالگری</item>
+        <item>هنرهای تجسمی</item>
+        <item>هنرهای صناعی</item>
+        <item>هنرهای چند رسانه ای</item>
+        <item>هواشناسی</item>
+        <item>هوافضا</item>
+        <item>هوانوردی</item>
+        <item>هوشبری</item>
+        <item>ویروس شناسی</item>
+        <item>یادگیری فناورانه تكنولوژی آموزشی</item>
+        <item>پاتولوژی دامپزشكی</item>
+        <item>پالایش گاز</item>
+        <item>پرستاری</item>
+        <item>پزشكی</item>
+        <item>پلیمر</item>
+        <item>پژوهش هنر</item>
+        <item>پژوهشگری اجتماعی</item>
+        <item>پژوهشگری امنیت</item>
+        <item>چاپ</item>
+        <item>ژئوفیزیك ـ الكترومغناطیس</item>
+        <item>ژئوفیزیك ـ زلزله شناسی</item>
+        <item>ژئوفیزیك ـ لرزه شناسی</item>
+        <item>ژئوفیزیك ـ گرانی سنجی</item>
+        <item>ژئومورفولوژی</item>
+        <item>ژنتیك و به نژادی گیاهی</item>
+        <item>گرافیك</item>
+        <item>گفتار درمانی</item>
+        <item>گیاه پزشكی</item>
+        <item>آب و هواشناسی</item>
+        <item>آمار</item>
+        <item>آمار و سنجش آموزشی</item>
+        <item>آموزش ابتدایی</item>
+        <item>آموزش الهیات و معارف اسلامی</item>
+        <item>آموزش تاریخ</item>
+        <item>آموزش جغرافیا</item>
+        <item>آموزش راهنمایی و مشاوره</item>
+        <item>آموزش ریاضی</item>
+        <item>آموزش زبان آلمانی</item>
+        <item>آموزش زبان انگلیسی</item>
+        <item>آموزش زبان روسی</item>
+        <item>آموزش زبان فرانسه</item>
+        <item>آموزش زبان و ادبیات عربی</item>
+        <item>آموزش زبان و ادبیات فارسی</item>
+        <item>آموزش زیست شناسی</item>
+        <item>آموزش شیمی</item>
+        <item>آموزش علوم اجتماعی</item>
+        <item>آموزش علوم ورزشی</item>
+        <item>آموزش فیزیك</item>
+        <item>آموزش كودكان استثنایی</item>
+        <item>آموزش و پرورش ابتدایی</item>
+        <item>آناتومی و جنین شناسی</item>
+        <item>آهنگسازی</item>
+        <item>اتاق عمل</item>
+        <item>بهداشت و كنترل كیفی مواد غذایی</item>
+        <item>ادبیات نمایشی</item>
+        <item>ادیان و عرفان</item>
+        <item>ادیان و مذاهب</item>
+        <item>ارتباط تصویری</item>
+        <item>ارتباطات و فناوری اطلاعات</item>
+        <item>اشتغال</item>
+        <item>اعضای مصنوعی</item>
+        <item>اقتصاد</item>
+        <item>اقتصاد اسلامی</item>
+        <item>اقتصاد كار و بهره وری</item>
+        <item>اقتصاد كشاورزی</item>
+        <item>اقتصاد نفت و گاز</item>
+        <item>اقیانوس شناسی</item>
+        <item>اقیانوس شناسی فیزیكی</item>
+        <item>اكوهیدرولوژی</item>
+        <item>الكترونیك هواپیمایی</item>
+        <item>الكترونیك و مخابرات دریایی</item>
+        <item>الهیات ـ ادیان و عرفان</item>
+        <item>الهیات ـ تاریخ و تمدن ملل اسلامی</item>
+        <item>الهیات ـ علوم قرآن و حدیث</item>
+        <item>الهیات ـ فقه و مبانی حقوق اسلامی</item>
+        <item>الهیات ـ كلام</item>
+        <item>الهیات و معارف اسلامی فقه شافعی</item>
+        <item>امنیت اطلاعات</item>
+        <item>امنیت اقتصادی</item>
+        <item>امنیت بین الملل</item>
+        <item>امنیت نرم</item>
+        <item>امور اراضی</item>
+        <item>امور بانكی</item>
+        <item>امور تربیتی</item>
+        <item>امور دولتی</item>
+        <item>امور زراعی و باغی</item>
+        <item>امور فرهنگی</item>
+        <item>امور مالی و مالیاتی</item>
+        <item>انرژی</item>
+        <item>انیمیشن</item>
+        <item>انگل شناسی</item>
+        <item>انگل شناسی دامپزشكی</item>
+        <item>ایران شناسی</item>
+        <item>ایمنی</item>
+        <item>ایمنی شناسی</item>
+        <item>ایمنی شناسی دامپزشكی</item>
+        <item>ایمنی صنعتی</item>
+        <item>اپتیك و لیزر</item>
+        <item>اپیدمیولوژی</item>
+        <item>بازیگری</item>
+        <item>باستان سنجی شیمی ـ شیمی تجزیه</item>
+        <item>باستان شناسی</item>
+        <item>بافت شناسی</item>
+        <item>بافت شناسی دامپزشكی</item>
+        <item>باكتری شناسی</item>
+        <item>باكتری شناسی دامپزشكی</item>
+        <item>برق</item>
+        <item>برنامه ریزی آموزشی مدیریت آموزشی</item>
+        <item>برنامه ریزی اجتماعی و تعاون</item>
+        <item>برنامه ریزی درسی</item>
+        <item>بهداشت حرفه ای</item>
+        <item>بهداشت خوراك دام</item>
+        <item>بهداشت عمومی</item>
+        <item>بهداشت محیط</item>
+        <item>بهداشت مواد غذایی</item>
+        <item>بهداشت و بازرسی گوشت</item>
+        <item>بهداشت و بیماریهای آبزیان</item>
+        <item>بهداشت و بیماریهای پرندگان</item>
+        <item>بهره برداری راه اهن</item>
+        <item>بهینه سازی مصرف انرژی</item>
+        <item>بوم شناسی زراعی</item>
+        <item>بیماری شناسی گیاهی</item>
+        <item>بیمه</item>
+        <item>بینایی سنجی</item>
+        <item>بیهوشی و مراقبتهای ویژه دامپزشكی</item>
+        <item>بیوانفورماتیك</item>
+        <item>بیوتكنولوژی</item>
+        <item>بیوتكنولوژی كشاورزی</item>
+        <item>بیوشیمی</item>
+        <item>بیوشیمی بالینی</item>
+        <item>بیولوژی و آناتومی چوب</item>
+        <item>بیولوژی و كنترل ناقلین بیماریها</item>
+        <item>تاریخ</item>
+        <item>تاریخ اسلام</item>
+        <item>تاریخ ـ تاریخ اسلام</item>
+        <item>تاریخ ـ تاریخ ایران دوره اسلام</item>
+        <item>تاریخ ـ تاریخ ایران قبل ازاسلام</item>
+        <item>تاریخ و تمدن ملل اسلامی</item>
+        <item>تاریخ و فلسفه علم</item>
+        <item>تربیت بدنی ـ آسیب شناسی ورزشی</item>
+        <item>تربیت بدنی ـ بیومكانیك ورزشی</item>
+        <item>تربیت بدنی ـ رفتارحركتی</item>
+        <item>تربیت بدنی ـ فیزیولوژی ورزشی</item>
+        <item>تربیت بدنی ـ مدیریت ورزشی</item>
+        <item>تربیت مبلغ قرآن كریم</item>
+        <item>تربیت مروج سیاسی</item>
+        <item>تربیت معلم قرآن كریم</item>
+        <item>ترجمه</item>
+        <item>ترویج و آموزش كشاورزی پایدار</item>
+        <item>تعمیر و نگهداری هواپیما</item>
+        <item>تكثیر و پرورش آبزیان</item>
+        <item>تكنسین سلامت دهان</item>
+        <item>تكنسین پروتزهای دندانی</item>
+        <item>تكنولوژی آبیاری</item>
+        <item>تكنولوژی تولیدات دامی</item>
+        <item>تكنولوژی تولیدات گیاهی</item>
+        <item>تكنولوژی رادیولوژی دهان، فك و صورت</item>
+        <item>تكنولوژی صنایع غذایی</item>
+        <item>تكنولوژی ماشینهای كشاورزی</item>
+        <item>تكنولوژی محیط زیست</item>
+        <item>تكنولوژی مرتع و آبخیزداری</item>
+        <item>تكنولوژی مواد غذایی</item>
+        <item>تكنولوژی پرتو درمانی</item>
+        <item>تكنولوژی پرتوشناسی</item>
+        <item>تكنولوژی پزشكی هسته ای</item>
+        <item>تلویزیون و هنرهای دیجیتالی</item>
+        <item>توسعه روستایی</item>
+        <item>توسعه كشاورزی</item>
+        <item>تولید و بهره برداری ازگیاهان دارویی و معطر</item>
+        <item>تولید و فرآوری خرما</item>
+        <item>تولید و ژنتیك گیاهی</item>
+        <item>جامعه شناسی</item>
+        <item>جراحی دامپزشكی</item>
+        <item>جغرافیا</item>
+        <item>جغرافیا و برنامه ریزی روستایی</item>
+        <item>جغرافیا و برنامه ریزی شهری</item>
+        <item>جغرافیای سیاسی</item>
+        <item>علوم انسانی</item>
+        <item>علوم تجربی</item>
+        <item> ریاضی و فیزیک</item>
+    </string-array>
+
+    <string-array name="main_header_Types">
+        <item>پزشک</item>
+        <item>کلینیک</item>
+        <item>داروخانه</item>
+        <item>آزمایشگاه</item>
+        <item>بیمارستان</item>
+        <item>فیزیوتراپی</item>
+        <item>تجهیزات پزشکی</item>
+    </string-array>
+
+    <string-array name="main_header_Keys">
+        <item>doctor</item>
+        <item>clinik</item>
+        <item>pharmacy</item>
+        <item>lab</item>
+        <item>hospital</item>
+        <item>physiotherapy</item>
+        <item>medical_equipment</item>
+    </string-array>
+
+    <string-array name="main_header_Urls">
+        <item>select_doctorsAdver</item>
+        <item>select_places</item>
+        <item>select_lab_hospitals</item>
+        <item>select_lab_hospitals</item>
+        <item>select_lab_hospitals</item>
+        <item>select_lab_hospitals</item>
+        <item>select_lab_hospitals</item>
+    </string-array>
+
+    <string-array name="main_header_TypesNumber">
+        <item>1</item>//پزشک
+        <item>2</item>//کلینیک
+        <item>1</item>//داروخانه
+        <item>2</item>آزمایشگاه//
+        <item>3</item>//بیمارستان
+        <item>4</item>//فیزیوتراپی
+        <item>5</item>//تجحیزات پزشکی
+    </string-array>
+    <string name="strAboutUs">
+        <![CDATA[
+        <p class="text-justify " style="direction:rtl">
+                        شرکت شبکه رفاه ایرانیان (سهامی خاص)  در سال <span class="pfont">1395</span> با هدف خدمت رسانی به شما هموطنان عزیز و ایجاد فضای مناسب برای کاریابی و اشتغال زایی راه اندازی گردید.
+
+                        <br>
+                        <br>
+                        <strong class="text-info pfont">  اهداف و سیاست های کلی رفاه من</strong>
+                        <br>
+                        <span>
+                              ارائه مرجعی کامل از اماکن تفریحی، ورزشی و گردشگری تخفیف دار در سطح کشور
+                            <br>
+                              تسهیل در نوبت دهی غیر حضوری و آنلاین پزشکان متخصص و درمانگاه ها
+                            <br>
+                              ارائه مرجع کامل و تخصصی کسب و کار و کاریابی
+                            <br>
+                              فراهم نمودن بستری مناسب جهت بیشتر دیده شدن کسب و کار و فعالان اقتصادی
+                            <br>
+                              ایجاد شرایط مطلوب جهت اشتغال زایی برای عزیزانی ک تابحال سابقه کار نداشته اند.
+                            <br>
+                              توزیع یکنواخت کار بین متخصصین مشاغل
+                            <br>
+                              قرار دادن افراد در تخصص های مرتبط با تجربه کاری و ایجاد بستر مناسب برای رشد و توسعه فردی
+                            <br>
+                              فراهم نمودن فضای مناسب درجهت سرعت بخشیدن به امر استخدام و کاریابی در سالی که به نام " اقتصاد مقاومتی ، تولید و اشتغال " مزین گردیده است.
+                        </span>
+                    </p>
+            ]]>
+    </string>
+
+
+    <string name="crop_image_activity_title" />
+    <string name="crop_image_menu_rotate_right">چرخش</string>
+    <string name="crop_image_menu_flip">معکوس کردن</string>
+
+    <string name="pick_image_intent_chooser_title">انتخاب فایل</string>
+
+</resources>

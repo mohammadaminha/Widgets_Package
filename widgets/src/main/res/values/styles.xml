@@ -1,0 +1,288 @@
+<resources xmlns:android="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="AppTheme.Base.Light" />
+
+    <style name="AppTheme.Transparent" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionMenuTextColor">@color/WhiteColor</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/BlackColor</item>
+        <item name="android:actionMenuTextColor">@color/WhiteColor</item>
+</style>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlActivated">@color/WhiteColor</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MyEditTextStyle" parent="@android:style/TextAppearance.Widget.EditText">
+        <item name="android:background">@color/WhiteColor</item>
+        //NO UNDERBAR
+        //COMMON HEIGHT
+    </style>
+
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">#fff</item>
+    </style>
+
+    <style name="checkBoxStyleW" parent="Base.Theme.AppCompat">
+
+        <item name="android:textColorSecondary">@color/YellowLight</item>
+        <item name="android:textColor">@color/WhiteColor</item>
+        <item name="android:buttonTint" tools:targetApi="lollipop">@color/WhiteColor</item>
+        <item name="android:button">@color/WhiteColor</item>
+
+    </style>
+    <style name="checkBoxStyleB" parent="Base.Theme.AppCompat">
+
+        <item name="android:textColorSecondary">@color/YellowLight</item>
+        <item name="android:textColor">@color/BlackColor</item>
+        <item name="android:buttonTint" tools:targetApi="lollipop">@color/BlackColor</item>
+        <item name="android:button">@color/BlackColor</item>
+
+    </style>
+
+
+
+    <style name="txtGDRW">
+
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/WhiteColor</item>
+
+    </style>
+
+    <style name="txtGDLW" parent="txtGDRW">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">gravity</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/WhiteColor</item>
+    </style>
+
+    <style name="txtGDCW">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">gravity</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/WhiteColor</item>
+    </style>
+
+
+    <style name="txtGDRB">
+
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/BlackColor</item>
+
+    </style>
+
+    <style name="txtGDLB" parent="txtGDRB">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">ltr</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">gravity</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/BlackColor</item>
+    </style>
+
+    <style name="txtGDCB">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">gravity</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/BlackColor</item>
+    </style>
+
+    <style name="EditTextBoxSGDR">
+
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/BlackColor</item>
+        
+    </style>
+
+    <style name="EditTextBoxMGDR">
+
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:textColor">@color/BlackColor</item>
+        
+    </style>
+
+    <style name="EditTextBoxSGDL">
+
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/BlackColor</item>
+        
+    </style>
+
+    <style name="EditTextBoxMGDL">
+
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:textColor">@color/BlackColor</item>
+        
+    </style>
+
+    <style name="EditTextBoxSGDC">
+
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/BlackColor</item>
+        
+    </style>
+
+    <style name="EditTextBoxMGDC">
+
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:textColor">@color/BlackColor</item>
+        
+    </style>
+
+    <style name="btn">
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:background">@color/GrayColorLight</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/GrayColorLight</item>
+    </style>
+
+    <style name="boxCard" parent="CardView">
+        <item name="android:layout_margin">6dp</item>
+        <item name="cardCornerRadius">6dp</item>
+        <item name="cardElevation">6dp</item>
+    </style>
+
+    <style name="cardInsideRtl">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:background">@android:drawable/list_selector_background</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layoutDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:textDirection" tools:ignore="DuplicateDefinition" tools:targetApi="jelly_bean_mr1">
+            rtl
+        </item>
+    </style>
+
+    <style name="cardInsideLtr">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:background">@android:drawable/list_selector_background</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layoutDirection" tools:targetApi="jelly_bean_mr1">ltr</item>
+        <item name="android:textDirection" tools:ignore="DuplicateDefinition" tools:targetApi="jelly_bean_mr1">
+            ltr
+        </item>
+    </style>
+
+    <style name="LinearRtl">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layoutDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">rtl</item>
+    </style>
+
+    <style name="LinearLtr">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layoutDirection" tools:targetApi="jelly_bean_mr1">ltr</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">ltr</item>
+    </style>
+
+
+    //DatePicker
+
+    <style name="mdtp_time_label">
+        <item name="android:textSize">@dimen/mdtp_time_label_size</item>
+        <item name="android:textColor">@color/mdtp_numbers_text_color</item>
+    </style>
+
+    <style name="mdtp_ampm_label">
+        <item name="android:textSize">@dimen/mdtp_ampm_label_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/mdtp_ampm_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mdtp_ActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mdtp_material_button_height</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="mdtp_ActionButton.Text" tools:ignore="NewApi">
+        <item name="android:textSize">@dimen/mdtp_material_button_textsize</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:background">@drawable/mdtp_material_button_background</item>
+        <item name="android:minWidth">@dimen/mdtp_material_button_minwidth</item>
+        <item name="android:paddingLeft">@dimen/mdtp_material_button_textpadding_horizontal</item>
+        <item name="android:paddingRight">@dimen/mdtp_material_button_textpadding_horizontal</item>
+        <item name="android:textColor">@color/YellowLight</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+</resources>
