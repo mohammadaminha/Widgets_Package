@@ -42,9 +42,17 @@ new Util("font_address",applicationContext);
 
 ## Styles:
 I made some usefull methods in repository, I think the name of these styles are easy 
-If you want that your textview has Gravity:center|vertical and textDirection:RTL and also textcolor:Black you can just use this style
-style="@style/txtGDCB"
-For white style="@style/txtGDCB"
+If you want that your textview has:
+```
+android:gravity="center"
+android:layoutDirection="rtl"
+android:textDirection="rtl"
+android:textColor="#111"
+```
+You can just use this style
+```style="@style/txtGDCB"```
+For white color:
+```style="@style/txtGDCB"```
 The compelete name style is TextViewGravityDirectionCenterBlack
 Let me know with your commits if you need something new in this repository and also you can email me:Mohammadaminha4@gmail.com
 Enjoy coding ;)
